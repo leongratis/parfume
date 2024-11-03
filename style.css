@@ -4,8 +4,8 @@
 }
 
 
-header{
-    background-color: hsl(48, 89%, 93%);
+main{
+    background-color: #F3EBE4;
     margin: 0.9rem 0.5rem;
     padding: 0.1rem;
     
@@ -19,7 +19,11 @@ section{
    border-radius: 10px 10px 10px 10px;
 }
 
- main{
+span{
+   display:none ;
+}
+
+ h2{
     height: 300px;
     background-image: url('image/image-product-mobile.jpg');
     background-position: center;
@@ -51,7 +55,7 @@ aside > *{
 }
 
 
-aside h1{
+aside .gab{
    font-size: 1.7rem;
 
 }
@@ -72,30 +76,32 @@ aside h1{
     top: 8px;
     left: 130px;
 }
-button{
+a{
+    display: inline-block;
     width: 100%;
     padding: 15px 2px;
     border-radius: 5px;
-    border: transparent;
-    background-color: hsl(158, 36%, 37%);
+    border: 1px solid transparent;
+    background-color: #3C8067;
     margin-top: 1px;
+    text-align: center;
 }
 
-button a{
+a{
     color: #fff;
     text-decoration: none;
 }
-button a .fa-solid{
+a .fa-solid{
     margin-right: 10px;
 }
 
 /* for tablet screen sizes */
 @media screen and (min-width: 600px){
     body{
-        background-color: hsl(50, 100%, 90%);
         
+        background-color: #F3EBE4;
     }
-    header{
+    main{
         margin: 7rem 7.5rem;
         background-color: transparent;
     }
@@ -107,7 +113,7 @@ button a .fa-solid{
 
     }
 
-    main{
+    h2{
         background-image: url('image/image-product-desktop.jpg');
         background-position-x: center;
         background-position-y: center;
@@ -119,6 +125,7 @@ button a .fa-solid{
     aside{
         background-color: #fff;
         border-radius: 0 10px 10px 0;
+        padding: 10px 15px;
     }
 }
 
@@ -126,10 +133,11 @@ button a .fa-solid{
 @media screen and (min-width: 1000px){
 
     body{
-        background-color: hsl(50, 100%, 90%);
+       
+        background-color: #F3EBE4;
        
     }
-    header{
+    main{
         margin: 7rem 17.5rem;
         background-color: transparent;
 
@@ -142,7 +150,7 @@ button a .fa-solid{
 
     }
 
-    main{
+    h2{
         background-image: url('image/image-product-desktop.jpg');
         background-position-x: center;
         background-position-y: center;
@@ -154,6 +162,7 @@ button a .fa-solid{
     aside{
         background-color: #fff;
         border-radius: 0 10px 10px 0;
+        padding: 18px 20px;
     }
 }
 
